@@ -10,7 +10,7 @@ setup(
     install_requires=read_requirements(),
     entry_points={
         'console_scripts': [
-            'llm_helper=cli:main',
+            'llm_helper=llm_helper.cli:main',
         ],
     },
 )
