@@ -26,6 +26,8 @@ This will then ask you for the variables in the prompt one at a time and afterwo
 ~/.llm_helper_data
 ```
 
+Future runs using `run` or `chat` will use the variables from your most recent run unless you would like to run it with different values.
+
 You can review old runs using some of the CLI commands:
 ```
 # Lists the last N runs you performed
